@@ -8,27 +8,26 @@ html,body{
 	height: 100%;
 }
 
-.artigo{
-	background-color: rgb(200,200,200);
-	width: 100%;
-	height: 100%;
-	text-align: center;
+.um{
+	width: 500px;
+	height: 800px;
+	background-color: red;
 }
 
-.artigo h1{
-	color: rgb(66,149,244);
-	font-size: 30px;
-	font-family: "tahoma";
-	font-style: italic;;
+.um > .dois{
+	width: 300px;
+	height: 300px;
+	background-color: green;
 }
 
-.artigo p{
-	color: #000;
-	text-align: left;
-	font-size: 17px;
-	font-family: 'tahoma';
-	font-style: normal;
-	font-weight: bold;
-	line-height: 40px;
-	margin-top: 15px;
+.um > .tres{
+	width: 100px;
+	height: 100px;
+	background: blue;
+}
+
+.um > .tres > .quatro{
+	width: 100px;
+	height: 100px;
+	background-color: gray;
 }
